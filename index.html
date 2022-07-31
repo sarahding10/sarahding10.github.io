@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Sarah</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  
+  <body>
+    
+    <h1 class = "title">Expand Health</h1>
+    <h4 style="background-color: #A3BFA8; padding-left: 2em; padding-bottom: 2em;";>Facing the underrespresentation in Health and Healthcare in America</h4>
+
+
+<!--     nav bar code from https://www.w3schools.com/howto/howto_js_topnav.asp -->
+  <div class = "topnav">
+      <nav class="navBar">
+      <ul>
+        <li>
+          <a href = "index.html" alt="Go back to the home page.">Home</a>
+        </li>
+        <li>
+          <a href = "data.html" alt="Find data on this topic.">Data</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+    
+  <div class="container">
+    
+  <div class="box">
+    <h2>Problem</h2>
+    Minorities are severely underrepresented in healthcare research and clinical trials. As a result, unaccounted for differences and information deficits lead to decreased knowledge and effectiveness of medicine for minorities.
+  </div>
+
+  <div class="box">
+    <h2>Mission</h2>
+    To bridge this gap, we aim to target physician bias, decrease eligibility requirements, and narrow the knowledge gap.
+  </div>
+
+  <div id="question">
+    <div id="space">How does this affect me?
+
+    <button id="learnMore" onclick="learnMore()">Learn More</button>
+
+    </div>
+    
+      <div id="more"><p class="littleText">
+        What is your ethnicity?
+        <ul>
+          <li>
+            <button type="button" id="aA" class="choices">African American</button>
+          </li>
+          <li>
+            <button type="button" id="asian" class="choices">Asian American</button></li>
+          <li>
+            <button type="button" id="other" class="choices">Other</button>
+          </li>
+        </ul>
+
+      <div id="impactText"></div>
+      <div style="text-size:5px !important;" id="littleLittleText"></div>
+        
+      </p>
+      </div>
+
+  </div>
+
+
+    
+
+
+    
+  </body>
+</html>
