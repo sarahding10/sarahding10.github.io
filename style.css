@@ -1,0 +1,161 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #7286A0; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #273c59;
+  font-size: 90px;
+}
+
+h4{
+  color: #e2e9e3;
+  font-size: 30px;
+}
+
+h2{
+  color: #182a44;
+}
+
+.title{
+  background-color: #A3BFA8;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+\
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* nav bar code from https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+/* Add a black background color to the top navigation */
+
+/* Change the color of links on hover */
+/* .topnav a:hover {
+  background-color: #b6cdce;
+  color: #273c59;
+} */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  text-align: center;
+  padding: 48px 52px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+  background-color: #142743;
+  color: #e2e9e3;
+} */
+
+.navBar {
+  list-style-type: none;
+  background-color: #8BA3A4;
+  overflow: hidden;
+  color: #e2e9e3;
+  text-align: center;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #e2e9e3;
+  padding: 0.8em;
+}
+
+li a:hover{
+  background-color: #b6cdce;
+  color: #273c59;
+}
+
+li a:active{
+  background-color: #273c59;
+  color: #b6cdce;
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.box{
+  margin-top:2em;
+  background-color:#97a8bf;
+  padding:1em;
+  width: 550px;
+  font-size: 30px;
+}
+
+#question{
+  font-size: 30px;
+  padding: 1em;
+  color: #182a44;
+  margin-bottom: 100px;
+}
+
+#learnMore{
+  background-color: #A3BFA8;
+  color: #204026;
+  font-size: 20px;
+  padding: 8px;
+  border: 1.5px solid #325739;
+  border-radius: 40px;  
+  opacity: 80%;
+  margin-left: 20px;
+}
+
+#more{ display: none; } 
+
+.littleText{
+  font-size: 25px;
+}
+
+.choices{
+  background-color: #A3BFA8;
+  color: #204026;
+  font-size: 15px;
+  padding: 6px;
+  border: 1.2px solid #325739;
+  border-radius: 40px;  
+  opacity: 80%;
+}
+
+#space{
+  margin-bottom:20px;
+}
+
+#impactText{
+  margin-top: 30px;
+  text-size: 20px;
+  align-text: center;
+}
+
+#littleLittleText{
+  text-size:5px !important;
+  margin-top:50px;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
